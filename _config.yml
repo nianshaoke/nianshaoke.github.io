@@ -657,7 +657,7 @@ valine_comment:
 # app_key
   leancloud_appkey: qeXToDwG9td63PQjvgOBjLYr
 # placeholde
-  placeholder: “Just go go"
+  placeholder: “走过路过，不留下点什么吗？"
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
