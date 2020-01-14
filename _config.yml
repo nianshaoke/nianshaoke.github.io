@@ -650,6 +650,15 @@ canvas_sphere: false
 # Canvas-ribbon
 canvas_ribbon: false
 
+valine_comment:
+  enable: true
+# app_id
+  leancloud_appid: 6IEku2Kg7Ql7PkJ76tzhaLXW-gzGzoHsz
+# app_key
+  leancloud_appkey: qeXToDwG9td63PQjvgOBjLYr
+# placeholde
+  placeholder: “Just go go"
+
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
