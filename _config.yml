@@ -657,7 +657,7 @@ valine_comment:
 # app_key
   appkey: vqFRKw5KhygME0Rdhuf2c7jM
 # placeholde
-  placeholder: “走过路过，不留下点什么吗？"
+  placeholder: 走过路过，不留下点什么吗？
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
