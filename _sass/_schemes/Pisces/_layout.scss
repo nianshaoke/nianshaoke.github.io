@@ -115,6 +115,30 @@
   }
 }
 
-.header{ width: 90%; }
-.container .main-inner { width: 90%; }
-.content-wrap { width: calc(100% - 260px); }
+.header{
+    width: 80%;
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
+.container .main-inner {
+    width: 80%;
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
+.content-wrap {
+    width: calc(100% - 260px);
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
