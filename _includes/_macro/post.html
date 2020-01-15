@@ -56,13 +56,7 @@
         </{% if site.seo %}h2{% else %}h1{% endif %}>
         {% endunless %}
 
-     <div>
-      {% unless is_index %}
-	
-		<div style="text-align:center;color:#73a2c0;font-size:15px;padding-top:40px;font-family:'YeahPapa';">---------------- ♥ The End ♥ ----------------</div>
-      {% endunless %}
-     </div>
-
+     
         <div class="post-meta">
           <span class="post-time">
             {% if site.post_meta.created_at %}
@@ -343,6 +337,13 @@
         {% include _macro/wechat-subscriber.html %}
       {% endunless %}
     </div>
+
+     <div>
+      {% unless is_index %}
+	
+		<div style="text-align:center;color:#73a2c0;font-size:15px;padding-top:40px;font-family:'YeahPapa';">---------------- ♥ The End ♥ ----------------</div>
+      {% endunless %}
+     </div>
 
     <div>
       {% unless is_index %}
