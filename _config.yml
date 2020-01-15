@@ -653,9 +653,9 @@ canvas_ribbon: false
 valine_comment:
   enable: true
 # app_id
-  leancloud_appid: 6IEku2Kg7Ql7PkJ76tzhaLXW-gzGzoHsz
+  leancloud_appid: 6K21KW3hME8Frz2wBYiSAgEI-MdYXbMMI
 # app_key
-  leancloud_appkey: qeXToDwG9td63PQjvgOBjLYr
+  leancloud_appkey: vqFRKw5KhygME0Rdhuf2c7jM
 # placeholde
   placeholder: “走过路过，不留下点什么吗？"
 
