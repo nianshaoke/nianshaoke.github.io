@@ -1,3 +1,9 @@
+<div>
+    {% if not is_index %}
+    {% include 'passage-end-tag.swig' %}
+    {% endif %}
+ </div>
+
 {% comment %} post(post, is_index, post_extra_class) {% endcomment %}
 
   {% if 'quote, picture' contains post.type %}
