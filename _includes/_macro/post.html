@@ -289,13 +289,8 @@
           {% if photos_size_modulo_COLUMN_NUMBER > 0 %}</div>{% endif %}
         </div>
       {% endif %}
-<!-- 封面 -->
+
       {% if is_index %}
-	  {% if post.summary_img  %}
-  <div class="out-img-topic">          
-    <img src={{ post.summary_img }} class="img-topic">
-  </div>
- {% endif %}
         {% if post.description and site.excerpt_description %}
           {{ post.description }}
           <!--noindex-->
