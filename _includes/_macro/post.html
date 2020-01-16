@@ -291,6 +291,12 @@
       {% endif %}
 
       {% if is_index %}
+	  {% if post.summary_img  %}        <!--封面-->
+      <div class="out-img-topic">
+       <img src={{ post.summary_img }} class="img-topic">
+       </div>
+      {% endif %}
+	  
         {% if post.description and site.excerpt_description %}
           {{ post.description }}
           <!--noindex-->
